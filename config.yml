@@ -17,5 +17,3 @@ params:
     - "foo1"
     - "foo2"
   SidebarRecentLimit: 5
-
-# "content:watch": "onchange './config.yml' './content/**/*' './static/**/*' './layouts/**/*' './themes' -- hugo",
