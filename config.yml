@@ -1,0 +1,21 @@
+baseURL: "https://something.com/"
+title: "Test"
+footnoteReturnLinkContents: "↩"
+permalinks:
+  post: /:year/:month/:title/
+ignoreFiles:
+  - "nginx/"
+pygmentsCodeFences: yes
+pygmentsCodefencesGuessSyntax: yes
+pygmentsStyle: monokai
+Paginate: 5
+params:
+  Description: "site"
+  AuthorName: "site"
+  GitHubUser: "site"
+  ListOfFoo:
+    - "foo1"
+    - "foo2"
+  SidebarRecentLimit: 5
+
+# "content:watch": "onchange './config.yml' './content/**/*' './static/**/*' './layouts/**/*' './themes' -- hugo",
